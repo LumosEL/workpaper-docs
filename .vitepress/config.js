@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import mathjax3 from 'markdown-it-mathjax3'
 
 export default defineConfig({
+  base: '/workpaper-docs/',
   title: '图像平滑与边缘保持滤波 — 数学推导知识库',
   description: '边缘保持图像平滑算法的核心数学推导，涵盖 GIF、WLS、L0、RTV 等经典模型',
   lang: 'zh-CN',
